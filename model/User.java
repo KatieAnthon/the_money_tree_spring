@@ -1,14 +1,13 @@
 package com.makers.moneytree.model;
 
-public class UserObj {
+public class User {
     public String UserID = "";
-    public int timer = 0;
     public String name = "";
 
     public String email = "";
     public String password = "";
 
-    public UserObj() {
+    public User() {
 
     }
     public String getUserID() {
